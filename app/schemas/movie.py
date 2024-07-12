@@ -6,6 +6,6 @@ class Movie(BaseModel):
     title: str
     description: str
     categories: List
-    age = int
+    age: int
     raiting: float
 
